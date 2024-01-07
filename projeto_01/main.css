@@ -8,6 +8,7 @@ header {
     padding: 16px 0;
     background-color: #1C1C1C;
     color: #ecf0f1;
+
 }
 
 header nav li {
@@ -19,6 +20,7 @@ header nav li {
 header nav li a {
     color: #ecf0f1;
     text-decoration: none;
+    
 }
 
 .container {
@@ -76,6 +78,7 @@ section p {
 
 .store-front {
     margin-right: 32px;
+    border-radius: 8px;
 }
 
 .social-links img {
@@ -110,6 +113,7 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    border-radius: 8px;
 }
 
 form textarea {
@@ -131,6 +135,8 @@ form button {
 
 form button:hover {
     background-color: #2f2b2b;
+    
+
 }
 
 input:focus,
@@ -146,6 +152,7 @@ footer {
 
 footer p {
     color: #ecf0f1;
+    text-align: center;
     
 }
 
@@ -153,8 +160,10 @@ footer p {
 .estadio {
     width: 300px;
     margin-right: 32px;
+    border-radius: 8px;
 }
 
 .claudio {
     margin-right: 32px;
+    border-radius: 8px;
 }
