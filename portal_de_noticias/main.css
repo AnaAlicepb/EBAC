@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body>header {
+    background-color: #4B0082;
+    padding: 16px 0;
+    color: #f5f5fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+
+}
+
+header li a {
+    color: #f5f5fa;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+article article {
+    margin-bottom: 16px 0;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration:underline
+}
+
+.articles article p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#sportes {
+background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sportes .articles article a {
+    background-color: rgba(0, 255, 0, 0.80);
+}
+
+#Economia {
+  background-color: #f8f59f
+}
+
+#Economia .articles article a {
+    background-color: #ff9f1a;
+}
+
+#Entretenimento {
+    background-color: #d6dfeb;
+}
+
+    #Entretenimento .articles article a {
+        background-color: #6495ed;
+    }
+
+    #Tecnologia {
+        background-color:rgba(153, 50, 204, 0.40);
+    }
+
+    #Tecnologia .articles article a {
+        background-color: rgba(153, 50, 200, 0.90);
+    }
+
+    
