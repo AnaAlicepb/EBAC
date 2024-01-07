@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para ser responsiva -->
+    <title>Atividade</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Inclui o arquivo de estilo do Bootstrap -->
+</head>
+<body>
+    <div class="container"> <!-- Cria um container Bootstrap -->
+        <!-- Carousel de imagens -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!-- Cria um carousel usando classes do Bootstrap -->
+          <div class="carousel-inner"> <!-- Define a área interna do carousel -->
+            <div class="carousel-item active"> <!-- Define um item do carousel como ativo -->
+              <img class="d-block w-100" src="./img/04.png" alt="Primeiro slide"> <!-- Insere uma imagem como o primeiro slide -->
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/05.png" alt="Segundo slide"> <!-- Insere uma imagem como o segundo slide -->
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/03.png" alt="Terceiro slide"> <!-- Insere uma imagem como o terceiro slide -->
+            </div>
+            <!-- Adicione quantas imagens desejar -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> <!-- Ícone de controle para o slide anterior -->
+            <span class="sr-only">Anterior</span> <!-- Texto alternativo para leitores de tela -->
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span> <!-- Ícone de controle para o próximo slide -->
+            <span class="sr-only">Próxima</span> <!-- Texto alternativo para leitores de tela -->
+          </a>
+        </div>
+    
+        <!-- Layout com grid -->
+        <div class="row"> <!-- Cria uma linha (row) no sistema de grid do Bootstrap -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4"> <!-- Define o tamanho das colunas para diferentes tamanhos de tela -->
+            <div class="card"> <!-- Cria um card Bootstrap -->
+              <div class="card-body"> <!-- Corpo do card -->
+                <h5 class="card-title">Card 1</h5> <!-- Título do card -->
+                <p class="card-text">Conteúdo do card 1.</p> <!-- Conteúdo do card -->
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais colunas conforme necessário -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- Inclui a biblioteca jQuery -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Inclui os scripts JavaScript do Bootstrap -->
+</body>
+</html>

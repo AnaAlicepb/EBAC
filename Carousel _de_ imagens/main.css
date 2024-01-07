@@ -1,0 +1,23 @@
+/* Estilo para o carousel */
+.carousel-item img {
+    max-width: 100%; /* Garante que a imagem do carousel ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  /* Estilo para os cards */
+  .card {
+    border: 1px solid #ccc; /* Borda fina ao redor do card */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno do card */
+    margin-bottom: 20px; /* Margem inferior entre os cards */
+  }
+  
+  .card-title {
+    font-size: 18px; /* Tamanho do título do card */
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+  }
+  
+  .card-text {
+    font-size: 14px; /* Tamanho do texto do card */
+  }
+  
