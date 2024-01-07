@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Josefin+Sans&family=Teko:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Restaurante Ichiraku</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/carousel/01.png" class="d-block w-100 img-fluid" alt="Primeira Foto">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel/02.jpg" class="d-block w-100 img-fluid" alt="Segunda foto">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel/03.jpg" class="d-block w-100 img-fluid" alt="Terceira foto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/autor/ICHIRAKU.jpg" class="d-block w-100 rounded" alt="Masashi Kishimoto. ">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o Anime</span></h2>
+                            <p>
+                                "Naruto Shippuden" é a continuação direta de "Naruto", acompanhando as aventuras do protagonista, Naruto Uzumaki, após um salto temporal de dois anos. A série segue a jornada de Naruto em busca de se tornar um ninja ainda mais poderoso e em sua missão de resgatar Sasuke Uchiha, seu amigo e rival. Ao longo da história, vemos o amadurecimento dos personagens, revelações sobre o passado e conflitos épicos contra inimigos poderosos. A narrativa é rica em emoção, amizade, sacrifício e superação, criando laços fortes entre os personagens e cativando os fãs com sua ação e profundidade emocional.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o autor</span></h3>
+                            <p>
+                                Teuchi é um homem muito gentil e jovial. Muitas vezes visto sorrindo junto com a sua filha Ayame.
+                                Sempre tratou bem Naruto Uzumaki, considerando-o o seu melhor cliente
+                            </p>
+                            <ul>
+                                <li>Sempre alegre</li>
+                                <li>Pronto para atender as vontades de seus clientes</li>
+                                <li>Bom negociador</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as idades</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            "Venha celebrar momentos especiais conosco! Aniversários inesquecíveis no Ichiraku Ramen: sabor, diversão e alegria garantidos!"
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>
+                            "Transforme seu grande dia em uma história única! Celebre o amor com estilo e sabor no Ichiraku Ramen: o local perfeito para uma recepção de casamento memorável."
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            "Junte-se a nós para momentos de pura alegria e confraternização! No Ichiraku Ramen, cada encontro é especial, repleto de sabor e boa companhia. Celebre conosco!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bebidas-não-alcolicas/leite-todos.jpg" alt="leite-todos">
+                                        <h5 class="text-colored fw-bold mt-2">Leite Todos</h5>
+                                        <p>
+                                            Efeitos:"Limpa" os efeitos causados por refeições em seu corpo, sejam positivos ou negativos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bebidas-não-alcolicas/cha.jpg" alt="Hinata tomando cha">
+                                        <h5 class="text-colored fw-bold mt-2">Hinata tomando Chá</h5>
+                                        <p>
+                                            O ato de Hinata tomar chá simboliza momentos de tranquilidade, concentração e crescimento pessoal.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bebidas-alcoolicas/tokkuri.png" alt="Tokukuri">
+                                        <h5 class="text-colored fw-bold mt-2">Tokukuri</h5>
+                                        <p>
+                                            Efeitos:Desperta o "Punho Embriagado",Vicia,Acelera regeneração. Preço: 150
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bebidas-alcoolicas/saque.jpg" alt="Saque">
+                                        <h5 class="text-colored fw-bold mt-2">Saque</h5>
+                                        <p>
+                                            Efeitos:Desperta o "Uma força absoluta",Vicia,Acelera regeneração. Preço: 150
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/entradas/churrasco.png" alt="CHURRASCO ">
+                                        <h5 class="text-colored fw-bold mt-2">Churrasco favorito do chõji</h5>
+                                        <p>
+                                             Efeitos: Melhora o potencial de Ninjutsu, Aumenta resistência. Preço: 1.000
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-custom-size" src="imagens/entradas/Remen com memma 2.jpg" alt="Remen com menma " width="213.5" height="136">
+                                        <h5 class="text-colored fw-bold mt-2">Remen com menma</h5>
+                                        <p>
+                                            Inspirado no menma Efeitos: Vontade do Fogo.
+                                            - Melhora o Controle de Chakra.
+                                            - Vicia após algumas refeições. 
+                                            - Preço: 750
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/prato-principal/remen-favorito.jpg" alt="Remen com naruto" >
+                                        <h5 class="text-colored fw-bold mt-2">Remen favorito do naruto</h5>
+                                        <p>
+                                            Efeitos: - Melhoria no Taijutsu.
+                                             Força extra, Acelera regeneração, Vicia após muitas refeições. Preço: 750                                
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block " src="imagens/prato-principal/bolinho-de-arroz.jpg" alt="Bolinho de arroz" width="213.5" height="136">
+                                        <h5 class="text-colored fw-bold mt-2">Favorito da Hinata</h5>
+                                        <p>
+                                            Efeitos: Aumenta disposição,Causa dor de barriga em excesso. Preço: 350 ( 2 Bolinhos )
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/sobremesa/doce-feijaojpg.jpg" alt="Doce de feijão vermelho">
+                                        <h5 class="text-colored fw-bold mt-2">Doce de feijão vermelhoe</h5>
+                                        <p>
+                                            Eles tem um formato arredondado e normalmente são três bolinhas fincadas em um palito. Há vários tipos de dangos.Preço 1.000
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/sobremesa/Mitarashijpg.jpg" alt="Mitarashi"  width="213.5" height="165">
+                                        <h5 class="text-colored fw-bold mt-3">Mitarashi</h5>
+                                        <p>
+                                            Doce com calda de molho de soja e açúcar caramelizado.Preço 500
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Ichiraku, nº 145 Bairro Folha de Konoha Vila da Folha, País do Fogo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
