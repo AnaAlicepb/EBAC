@@ -1,0 +1,45 @@
+.completed {
+    text-decoration: line-through;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+}
+
+#nomeTarefa {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 5px;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+#formTarefa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+#formTarefa input[type="text"] {
+    margin-bottom: 10px;
+}
+
+#formTarefa input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
