@@ -4,4 +4,3 @@ function somar(a, b) {
   }
   
   module.exports = somar;
-  
