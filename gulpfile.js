@@ -12,7 +12,7 @@ function compilarSass() {
     .pipe(
       sass({
         outputStyle: "compressed",
-      }).on('error', sass.logError) // Tratamento de erro
+      }).on('error', sass.logError) 
     )
     .pipe(sourcemaps.write("./maps"))
     .pipe(gulp.dest("./build/styles"));
