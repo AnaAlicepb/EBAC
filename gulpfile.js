@@ -4,6 +4,16 @@ const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 
+function padrao(callback) {
+    compilarSass();
+    console.log("Finalizada função compilarSass");
+    comprimirJS();
+    console.log("Finalizada função comprimirJS");
+    comprimirImagens();
+    console.log("Finalizada função comprimirImagens");
+    callback();
+  }
+
 function compilarSass() {
   console.log("Iniciando função compilarSass");
   return gulp
@@ -33,29 +43,15 @@ function comprimirImagens() {
     .pipe(imagemin())
     .pipe(gulp.dest("./build/images"));
 }
-
-function funcaoPadrao(callback) {
-  setTimeout(function(){
-    console.log("Executando via gulp");
-    callback();
-  }, 2000);
-}
-
-function dizoi(callback) {
-  console.log("olá gulp");
-  dizTchau();
-  callback();
-}
-
-function dizTchau() {
-  console.log("Tchau Gulp");
-}
-
-exports.default = gulp.series(funcaoPadrao, dizoi);
-exports.dizoi = dizoi;
-exports.sass = compilarSass;
+exports.default = padrao;
+ exports.sass = compilarSass;
+ exports.javascript = comprimirJS;
+ exports.images = comprimirImagens;
 exports.watch = function () {
   gulp.watch("./source/styles/*.scss"), gulp.series(compilarSass);
 };
-exports.javascript = comprimirJS;
-exports.images = comprimirImagens;
+
+
+
+
+
