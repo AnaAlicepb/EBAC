@@ -1,0 +1,88 @@
+.marginBottom8 {
+  margin-bottom: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #192a56;
+  color: #f5f6fa;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+.container header {
+  padding-bottom: 24px;
+}
+.container header .profile-avatar {
+  display: block;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+}
+.container .profile-bio-name {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.container .profile-bio-subtitle {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.container .profile-bio-description {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.container .social-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 240px;
+  margin: 0 auto;
+}
+.container .social-links li img {
+  transition: all ease 0.3s;
+}
+.container .social-links li img:hover {
+  transform: scale(1.3);
+}
+.project-list {
+  margin-top: 32px;
+}
+.project-list-item a {
+  text-decoration: none;
+  background-color: #0097e6;
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #f5f6fa;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #0097e6;
+  transition: all esse 0.5s;
+}
+.project-list-item a:hover {
+  color: #0097e6;
+  background-color: transparent;
+}
