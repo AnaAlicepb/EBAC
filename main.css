@@ -17,9 +17,9 @@
 .produto-imagem {
     width: 100px;
     height: 100px;
-    border: 2px solid #ccc; /* Adiciona uma borda de 2px sólida cinza */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
 
