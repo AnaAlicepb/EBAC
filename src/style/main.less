@@ -1,0 +1,48 @@
+@primary-color: #ff9900;
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex; /* Adicionando display flex para centralizar verticalmente */
+  flex-direction: column; /* Organizando os elementos em coluna */
+  justify-content: center; /* Centralizando verticalmente */
+  align-items: center; /* Centralizando horizontalmente */
+  height: 100vh; /* Definindo altura total da viewport */
+}
+
+h1 {
+  color: @primary-color;
+  font-size: 30px; /* Aumenta o tamanho da fonte do h1 */
+  margin-bottom: 20px; /* Adiciona uma margem inferior para separar do formulário */
+}
+
+form {
+  max-width: 960px; /* Define a largura máxima */
+  width: 100%; /* Define a largura como 100% */
+  font-size: 16px;
+}
+
+
+
+label {
+  display: block; /* Define os rótulos como elementos de bloco, fazendo com que eles ocupem toda a largura disponível */
+  margin-bottom: 10px; /* Adiciona uma margem inferior de 10px aos rótulos */
+}
+
+input[type="text"] {
+  width: 100%; /* Define a largura do campo de texto como 100% da largura do seu contêiner pai */
+  padding: 10px; /* Adiciona um preenchimento interno de 10px dentro do campo de texto */
+  margin-bottom: 10px; /* Adiciona uma margem inferior de 10px ao campo de texto */
+}
+
+button {
+  padding: 10px 20px; /* Define o preenchimento interno do botão como 10px na parte superior e inferior, e 20px nas laterais */
+  background-color: @primary-color; /* Define a cor de fundo do botão como a cor definida pela variável @primary-color */
+  color: white; /* Define a cor do texto do botão como branco */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Define o cursor do mouse como um ponteiro ao passar sobre o botão */
+}
+
+button:hover {
+  background-color: darken(@primary-color, 10%); /* Define a cor de fundo do botão quando o mouse estiver sobre ele como uma versão escurecida da cor definida pela variável @primary-color */
+}
