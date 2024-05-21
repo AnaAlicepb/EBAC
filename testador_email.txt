@@ -1,0 +1,4 @@
+https://putsmail.com/
+Pra usar recursos externos preciso de servidor de imagens on line
+foi hostepados as imagens
+no vercel
